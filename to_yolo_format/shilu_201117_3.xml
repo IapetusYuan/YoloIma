@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Oimages</folder>
+	<filename>shilu_201117_3.jpg</filename>
+	<path>D:\Image recognition\EEPJ\Oimages\shilu_201117_3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shilu</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>357</ymin>
+			<xmax>477</xmax>
+			<ymax>1031</ymax>
+		</bndbox>
+	</object>
+</annotation>
