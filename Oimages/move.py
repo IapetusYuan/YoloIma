@@ -7,7 +7,7 @@ Created on Wed Dec 16 15:55:35 2020
 
 import os
 import shutil
-path = 'C:\\Users\\Small\\Desktop\\myyolov4\\Oimages'
+path = 'C:\\Users\\Small\\Desktop\\newmyyolo4\\Oimages'
 namelist1=os.listdir(path+"\\Pending")
 for i in namelist1:
     if not os.listdir(path+"\\Pending\\"+i):  #判斷資料夾是否為空

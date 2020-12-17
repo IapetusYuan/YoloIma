@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from PIL import Image
 import os
-path = 'C:\\Users\\Small\\Desktop\\myyolov4\\Oimages'
+path = 'C:\\Users\\Small\\Desktop\\newmyyolo4\\Oimages'
 namelist1=os.listdir(path+"\\Pending")
 namelist2=[]
 angle = [0,30,60,90,120,150,180,210,240,270,300,330]
