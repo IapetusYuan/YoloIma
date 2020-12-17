@@ -14,5 +14,11 @@ for i in namelist1:
           continue     
     namelist2=os.listdir(path+"\\Pending\\"+i)
     for j in namelist2:
-        shutil.move(path+"\\Pending\\"+i+"\\"+j, path+"\\Original sample\\"+i)
+        if os.path.isdir(path+"\\Original sample\\"+i):
+            shutil.move(path+"\\Pending\\"+i+"\\"+j, path+"\\Original sample\\"+i)
+        else:
+            os.makedirs(path+"\\Original sample\\"+i)
+            shutil.move(path+"\\Pending\\"+i+"\\"+j, path+"\\Original sample\\"+i)
+            
+        
         

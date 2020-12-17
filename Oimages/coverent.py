@@ -8,10 +8,13 @@ namelist2=[]
 angle = [0,30,60,90,120,150,180,210,240,270,300,330]
 for i in namelist1:
     if not os.listdir(path+"\\Pending\\"+i):  #判斷資料夾是否為空
-          continue     
+          continue
+    if not os.path.isdir(path+"\\New sample\\"+i):
+            os.makedirs(path+"\\New sample\\"+i)  
     count =len(os.listdir(path+"\\New sample\\"+i))       #統計目前所有以處理相片
     namelist2=os.listdir(path+"\\Pending\\"+i)
     for j in namelist2:
+        
         for ang in angle:
             count+=1
             img = Image.open(path+"\\Pending\\"+i+"\\"+j)

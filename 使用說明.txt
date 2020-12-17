@@ -1,0 +1,2 @@
+yolov4.weights 請自行至雲端
+coverent.py AND move.py 執行前請確認路徑
